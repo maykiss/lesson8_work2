@@ -362,7 +362,7 @@
     margin-top: 27px;
 }
 
-.mask:hover {
+.list_carusel:hover .mask {
     opacity: 1;
     transition: .3s
 }
@@ -420,6 +420,16 @@
     font-size: 15px;
     line-height: 20px;
     text-transform: uppercase;   
+}
+
+.list_clients {
+    background: #e8ebf1;
+    height: 200px;
+    display: block;
+}
+
+.list_item {
+    float: left;   
 }
 
 .testimonials_title::before {
